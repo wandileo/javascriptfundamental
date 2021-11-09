@@ -3,5 +3,5 @@ let names = ["Wandile", "Khum", "Selina", "Precious", "Andiswe", "Maspeka", "Kag
 let display = document.getElementById("display");
 
 for (let i = 0; i < names.length; i++) {
-    display.innerHTML += "<li>" + names[i] + "</li>"
+    display.innerHTML += "<hr>" + names[i] + "</hr>"
 }
